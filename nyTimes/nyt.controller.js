@@ -4,9 +4,8 @@ angular
   .module('nyTimes')
   .controller('NyTimesController', function ($scope, NyTimesService, $routeParams) {
 
-    NyTimesService.getArticles().then(function (articles) {
-      console.log(articles);
-      $scope.articles = articles;
+    NyTimesService.getArticles('19880916').then(function (articles) {
+      $scope.articles = articles.data.response.docs;
     });
 
   });
