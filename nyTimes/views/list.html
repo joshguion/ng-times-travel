@@ -1,7 +1,13 @@
 <h1 class="articlesTitle">Articles</h1>
 
-<article ng-repeat="article in articles" class="article">
-    <div ng-class="">
-      <a href="{{article.web_url}}">View in New York Times</a>
-    </div>
-</article>
+
+<div class="articleContainer">
+  <article ng-repeat="article in articles" class="article">
+      <div ng-class="articleDiv">
+        <h2>{{article.headline.main}}</h2>
+        <h4>{{article.pub_date | date}}</h2>
+        <p>{{article.lead_paragraph}}</p>
+        <a href="{{article.web_url}}">View in New York Times</a>
+      </div>
+  </article>
+</div>

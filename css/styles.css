@@ -30,3 +30,12 @@ body {
 
 button {
   background: white; }
+
+.articleContainer {
+  margin-left: 9.5%;
+  width: 80%;
+  height: 400px;
+  overflow: scroll; }
+  .articleContainer .article {
+    background: white;
+    padding: 2%; }
