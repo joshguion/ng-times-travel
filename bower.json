@@ -1,0 +1,23 @@
+{
+  "name": "ng-nyt",
+  "authors": [
+    "joshguion <joshguion@icloud.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "moment": "~2.10.6",
+    "underscore": "~1.8.3"
+  }
+}
